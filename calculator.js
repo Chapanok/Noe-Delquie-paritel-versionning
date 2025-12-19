@@ -13,8 +13,9 @@ function setResult(text) {
 }
 
 function addition(a, b) {
-  throw new Error("addition non implementee");
+  return a + b;
 }
+
 
 function substraction(a, b) {
   throw new Error("soustraction non implementee");
