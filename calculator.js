@@ -23,8 +23,9 @@ function substraction(a, b) {
 
 
 function multiplication(a, b) {
-  throw new Error("multiplication non implementee");
+  return a * b;
 }
+
 
 function run(op) {
   try {
