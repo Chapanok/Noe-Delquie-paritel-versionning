@@ -18,8 +18,9 @@ function addition(a, b) {
 
 
 function substraction(a, b) {
-  throw new Error("soustraction non implementee");
+  return a - b;
 }
+
 
 function multiplication(a, b) {
   throw new Error("multiplication non implementee");
